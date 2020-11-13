@@ -1,15 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Models.Data
 {
-    class AgencyDbContext : DbContext
+   public class Tax
     {
-        public DbSet<Product> Products { get; set; }
-       
+        public int ID { get; set; }
+        public string TaxPercent { get; set; }
+        public string TaxValue { get; set; }
     }
 }

@@ -6,18 +6,19 @@ using System.Threading.Tasks;
 
 namespace Models.Data
 {
-   public class InvoiceItems
+    public class InvoiceItems
     {
-        string RECEIPT_NO { get; set; }
-        string DATED { get; set; }
-        string INVOICEPERSON { get; set; }
-        string DISCRIPTION { get; set; }
-        string HSN { get; set; }
-        string Qty { get; set; }
-        string Units { get; set; }
-        string UNITRATE { get; set; }
-        string GST { get; set; }
-        string TOTAL { get; set; }
-        public Logic.InvoiceType InvoiceState { get; set; }
+        public int ID { get; set; }
+        public string RECEIPT_NO { get; set; }
+        public string DATED { get; set; }
+        public string INVOICEPERSON { get; set; }
+        //public string DISCRIPTION { get; set; }
+        //public string HSN { get; set; }
+        //public string Qty { get; set; }
+        //public string Units { get; set; }
+        //public string UNITRATE { get; set; }
+        //public string GST { get; set; }
+        public string TOTAL { get; set; }
+        public InvoiceType InvoiceState { get; set; }
     }
 }

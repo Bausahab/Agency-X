@@ -1,0 +1,27 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="UI.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="oRGNIZATIONnAME" Type="System.String" Scope="User">
+      <Value Profile="(Default)">SHARMA-AGENCIES</Value>
+    </Setting>
+    <Setting Name="GSTN" Type="System.String" Scope="User">
+      <Value Profile="(Default)">09ADIFS6223L1ZM</Value>
+    </Setting>
+    <Setting Name="aDDRESS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Sarnath-Varanasi(221007)</Value>
+    </Setting>
+    <Setting Name="fULLaDDRESS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Behind Korean Temple,Harsh Nagar Colony</Value>
+    </Setting>
+    <Setting Name="fINANCIALyEAR" Type="System.String" Scope="User">
+      <Value Profile="(Default)">2020</Value>
+    </Setting>
+    <Setting Name="rECEIPTnO" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="rECEIPTsIZE" Type="System.Drawing.Size" Scope="User">
+      <Value Profile="(Default)">500, 700</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
