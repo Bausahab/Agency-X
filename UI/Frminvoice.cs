@@ -68,7 +68,7 @@ namespace UI
         {
             this.FormBorderStyle = FormBorderStyle.None;
             datagridReceptItm.DataSource = invoItm.ToList();
-            datagridReceptItm.Columns["UnitsObtained"].Visible = false;
+           
             datagridReceptItm.Columns["Id"].Visible = false;
             //  datagridReceptItm.Columns[]
             lblstate.Text = Stocklcl.InvoiceState.ToString();

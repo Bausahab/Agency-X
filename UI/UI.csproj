@@ -60,6 +60,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmContact.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmContact.Designer.cs">
+      <DependentUpon>FrmContact.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmHome.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -132,7 +138,9 @@
     <Compile Include="UserControl1.Designer.cs">
       <DependentUpon>UserControl1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Utility.cs" />
+    <EmbeddedResource Include="FrmContact.resx">
+      <DependentUpon>FrmContact.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmHome.resx">
       <DependentUpon>FrmHome.cs</DependentUpon>
     </EmbeddedResource>

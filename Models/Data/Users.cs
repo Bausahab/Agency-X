@@ -16,5 +16,7 @@ namespace Models.Data
         [Category("Security")]
         [PasswordPropertyText(true)]
         public string UserPassword { get; set; }
+
+        public string UserQuest { get; set; }
     }
 }

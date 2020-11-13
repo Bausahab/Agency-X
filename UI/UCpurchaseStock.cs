@@ -75,13 +75,14 @@ namespace UI
                        
                         
                     }
-                    MessageBox.Show("Records Added to STOCK");
+                   
                 }
+                MessageBox.Show(addedStock.Count.ToString()+"PRODUCT(s) Added to STOCK","AGENCY INFORMATION");
                 this.Dispose();
             }
             catch (Exception tt)
             {
-                MessageBox.Show(tt.Message + "\n" + "Fill All Values and Try Again");
+                MessageBox.Show(tt.Message + "\n" + "Fill All Values and Try Again","AGENCY ERROR");
             }
             #endregion
             this.Dispose();
@@ -212,6 +213,12 @@ namespace UI
                 }
 
             }
+        }
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+            FrmContact cont = new FrmContact();
+
         }
     }
 }

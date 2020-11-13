@@ -53,6 +53,7 @@
   <ItemGroup>
     <Compile Include="AgencyDbContextReset.cs" />
     <Compile Include="AgencyDbContext.cs" />
+    <Compile Include="Data\Contacts.cs" />
     <Compile Include="Data\InvoiceItems.cs" />
     <Compile Include="Data\Organization.cs" />
     <Compile Include="Data\Product.cs" />
@@ -60,6 +61,7 @@
     <Compile Include="Data\Status.cs" />
     <Compile Include="Data\Tax.cs" />
     <Compile Include="Data\Users.cs" />
+    <Compile Include="Logic\ContactType.cs" />
     <Compile Include="Logic\ProductInventory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
